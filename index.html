@@ -27,6 +27,60 @@
     <!-- <script src="./js/function.js"></script> -->
     <script src="./js/array.js"></script>
 
-    <script></script>
+    <script>
+      // Array Sort
+      // 1 . alphabetic sort
+      const fruitss = ["plum", "berries", "avacado", "kiwi"];
+      const sortedFruits = fruitss.sort();
+      console.log(sortedFruits);
+      console.log(sortedFruits.reverse()); // or
+      // console.log(fruitss.sort().reverse());
+
+      // 2. numeric sort
+      // a. accending order
+      const nums = [40, 100, 1, 5, 25, 10];
+      nums.sort(function (a, b) {
+        return a - b;
+      });
+      console.log(nums);
+
+      // b. decending order
+      // const numss = [40, 100, 1, 5, 25, 10];
+      // numss.sort(function (a, b) {
+      //   return b - a;
+      // });
+      // console.log(numss);
+
+      const numsss = [40, 100, 1, 5, 25, 10];
+      numsss.sort(function (a, b) {
+        return b - a;
+        // var sorted = b - a;
+        // return sorted;
+      });
+      console.log(numsss);
+
+      // c. even numbers sort
+      // d. odd numbers sort
+
+      //  Array Iteration ()
+      // using the anonymous function
+      // a.
+      // const fruitsss = ["plum", "berries", "avacado", "kiwi"];
+      // fruitsss.forEach(function (fruit) {
+      //   console.log(fruit);
+      // });
+
+      // b. arrow function illustration.
+      const fruitssss = ["berrys", "guava", "pear", "kiwi"];
+      fruitssss.forEach((fruit) => {
+        console.log(fruit);
+      });
+
+      // c. map.....I will come back to this..because I do not understand it.
+      // const fruitsssss = ["berrys", "guava", "pear", "kiwi"];
+      // fruitsssss.map(function (fruit) {
+      //   console.log(fruit);
+      // });
+    </script>
   </body>
 </html>

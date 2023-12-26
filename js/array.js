@@ -180,25 +180,3 @@ console.log(africanFoodss.find((foo) => foo === "fufu"));
 console.log(africanFoods.concat(africanFoodsId));
 
 //
-// Array Sort
-// Array Iteration
-const fruitss = ["plum", "berries", "avacado", "kiwi"];
-const sortedFruits = fruitss.sort();
-console.log(sortedFruits);
-console.log(sortedFruits.reverse());
-// console.log(fruitss.sort().reverse());
-
-// numeric sort
-// a. accending order
-const nums = [40, 100, 1, 5, 25, 10];
-nums.sort(function (a, b) {
-  return a - b;
-});
-console.log(nums);
-
-// b. decending order
-const numss = [40, 100, 1, 5, 25, 10];
-nums.sort(function (a, b) {
-  return b - a;
-});
-console.log(numss);
