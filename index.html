@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      //  Demonstrating with backtics (creating a valid html element called card)
+      const card = `
+        <div>
+            <img src="https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg">
+            <h3>Womens's cloth<h3>
+                <button>Buy now</button>
+        </div>
+        `;
+      document.body.innerHTML = card;
+    </script>
+    <!-- <button onclick="greet()">Get started</button>  -->
+
+    <!-- I want to pass in an argument -->
+    <button onclick="greet('Udo')">Get started</button>
+    <button onclick="greet('Goody Goody')">Get started</button>
+
+    <script src="./js/script.js"></script>
+    <!-- <script src="./js/function.js"></script> -->
+    <script src="./js/array.js"></script>
+
+    <script></script>
+  </body>
+</html>
